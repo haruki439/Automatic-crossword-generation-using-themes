@@ -20,7 +20,7 @@ https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/
 
 ## 手順
 
--- `word_searcher_Wikipedia.py` 
+- `word_searcher_Wikipedia.py` 
 - `word_searcher_Sentence-BERT.py`  
 　テーマと答えを単語探索コードで行う
 
