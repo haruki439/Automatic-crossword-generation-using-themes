@@ -24,19 +24,24 @@ https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/
 
 ```python
 API_KEY = "your-api-key-here"
+```
 
 ---
 
 ## 手順
 
-- `word_searcher_Wikipedia.py` 
-- `word_searcher_Sentence-BERT.py`  
-　テーマと答えを単語探索コードで行う
+1. **単語探索**
+   - `word_searcher_Wikipedia.py`
+   - `word_searcher_Sentence-BERT.py`  
+   テーマおよび答えに基づき、単語探索を行う。
 
-- `crossword_builder.py`  
-  単語探索を元にパズル生成
+2. **クロスワード生成**
+   - `crossword_builder.py`  
+   単語探索によって得られた単語をもとに、クロスワードパズルを生成する。
 
-- `crossword_quiz.py`  
-  パズルで使用した単語でクイズを生成
+3. **クイズ生成**
+   - `crossword_quiz.py`  
+   クロスワードで使用した単語をもとに、クイズ（ヒント）を生成する。
+
 
 
