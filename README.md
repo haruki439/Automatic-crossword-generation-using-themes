@@ -16,6 +16,15 @@ https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/
 
 ダウンロード後、単語探索コードに当てはめてください。
 
+
+### 2. APIキーの設定
+本システムでは、外部APIを利用するため **APIキーの設定** が必要です。
+
+各Pythonファイル内に以下の形式でAPIキーを設定してください。
+
+```python
+API_KEY = "your-api-key-here"
+
 ---
 
 ## 手順
