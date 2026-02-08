@@ -20,18 +20,14 @@ https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/
 
 ## 手順
 
+-- `word_searcher_Wikipedia.py` 
+- `word_searcher_Sentence-BERT.py`  
+　テーマと答えを単語探索コードで行う
+
 - `crossword_builder.py`  
-  クロスワード盤面を生成するプログラム
+  単語探索を元にパズル生成
 
 - `crossword_quiz.py`  
-  クロスワード用のクイズ（ヒント）を生成するプログラム
-
-- `word_searcher_Wikipedia.py`  
-  Wikipediaデータを用いた単語検索モジュール
-
-- `word_searcher_Sentence-BERT.py`  
-  Sentence-BERTを用いた意味的類似度に基づく単語検索モジュール
+  パズルで使用した単語でクイズを生成
 
 
-## 備考
-本リポジトリは研究・学習目的で作成されています。
